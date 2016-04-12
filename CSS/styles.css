@@ -1,0 +1,61 @@
+body {
+	font-family: 'Josefin Sans', Arial, sans-serif;
+	background-color: #000000;
+	background-image: url(../Images/background.png);
+}
+
+div.main {
+	background-color: #ffffff;
+	margin: auto;
+	width: 1000px;
+	padding: 20px;
+}
+
+h1, h2 {
+	margin: 0px;
+	padding: 2px;
+	text-align: center;
+	font-family: 'Lobster Two', 'Josefin Sans', Arial, sans-serif;
+}
+
+h1 {
+	font-size: 300%;
+}
+
+h2 {
+	padding-bottom: 25px;
+}
+
+h3, h4 {
+	font-size: 125%;
+}
+
+p {
+	font-size: 125%;
+}
+
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+ul.navigation li {
+	float: left;
+}
+
+ul.navigation li a {
+    display: inline-block;
+    color: #666666;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 16px;
+}
+
+ul.navigation li a:hover {
+	background-color: #dddddd;
+}
