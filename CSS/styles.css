@@ -28,11 +28,12 @@ h2 {
 }
 
 h3, h4 {
-	font-size: 125%;
+	font-size: 130%;
 }
 
 p {
 	font-size: 125%;
+	line-height: 110%;
 }
 
 ul.navigation {
@@ -61,14 +62,10 @@ ul.navigation li a:hover {
 	background-color: #dddddd;
 }
 
-.projects, .projectsclear {
+.projects {
 	width: 33%;
 	display: inline-block;
 	margin: 10px, auto;
-}
-
-.projectsclear {
-	clear: left;
 }
 
 .projectdescription {
@@ -82,7 +79,7 @@ a:link {
 }
 
 a:visited {
-	color: #333333;
+	color: #999999;
 }
 
 a:hover {
@@ -90,5 +87,12 @@ a:hover {
 }
 
 a:active {
-	color: #999999;
+	color: #333333;
+}
+
+.float {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
 }
