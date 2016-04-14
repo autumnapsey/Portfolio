@@ -28,7 +28,8 @@ h2 {
 }
 
 h3, h4 {
-	font-size: 130%;
+	font-family: 'Lobster Two', 'Josefin Sans', Arial, sans-serif;
+	font-size: 140%;
 }
 
 p {
@@ -64,8 +65,9 @@ ul.navigation li a:hover {
 
 .projects {
 	width: 33%;
+	min-width: 300px;
 	display: inline-block;
-	margin: 10px, auto;
+	margin: 10px auto;
 }
 
 .projectdescription {
@@ -94,5 +96,42 @@ a:active {
 	float: left;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
 	border-radius: 5px;
 }
+
+img {
+	max-width: 100%;
+	}
+
+.allprojects {
+	width: 100%;
+	margin: 0px auto;
+}
+
+@media (max-width: 1230px) {
+	.projects {
+		display: inline-block;
+		width: 48%;
+		margin: auto;
+	}
+}
+
+@media (max-width: 819px) {
+	.projects {
+		display: block;
+		margin: auto;
+		min-width: 100%
+	}
+}
+
+
+
+
+
+
+
+
